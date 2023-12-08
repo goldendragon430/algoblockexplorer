@@ -10,7 +10,7 @@ function Home(): JSX.Element {
         <div className={"home-container"}>
             <div className="home-body">
                 <div className="tag-line">
-                    Algorand Blockchain Explorer
+                    Quantinium Blockchain Explorer
                 </div>
                 <div className="search-section">
                     <Grid container spacing={2}>
@@ -21,10 +21,10 @@ function Home(): JSX.Element {
                 </div>
                 <div className="live-section">
                     <Grid container spacing={2}>
-                        <Grid item xs={12} sm={12} md={6} lg={4} xl={4}>
+                        <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
                             <LiveBlocks></LiveBlocks>
                         </Grid>
-                        <Grid item xs={12} sm={12} md={6} lg={5} xl={5}>
+                        <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
                             <LiveTransactions></LiveTransactions>
                         </Grid>
                     </Grid>

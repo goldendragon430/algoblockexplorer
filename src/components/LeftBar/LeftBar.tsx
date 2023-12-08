@@ -7,7 +7,7 @@ import {useDispatch, useSelector} from "react-redux";
 import React from "react";
 import SettingsIcon from '@mui/icons-material/Settings';
 import {showSettings} from "../../redux/settings/actions/settings";
-import Logo from '../../assets/images/logo-black.png';
+import Logo from '../../assets/images/logo.jpg';
 import {useLocation, useNavigate} from "react-router-dom";
 import {RootState} from "../../redux/store";
 import {shadedClr, shadedClr1, shadedClr2} from "../../utils/common";

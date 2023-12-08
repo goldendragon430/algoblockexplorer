@@ -50,9 +50,9 @@ function AppRouter(): JSX.Element {
     return (<div>
         <BrowserRouter>
             <div className="app-container">
-                <div className="app-left">
+                {/* <div className="app-left">
                     <LeftBar></LeftBar>
-                </div>
+                </div> */}
                 <div className="app-right">
                     <div className="content-wrapper">
                         <div className="content-container">

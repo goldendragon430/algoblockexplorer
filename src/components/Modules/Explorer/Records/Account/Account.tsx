@@ -55,7 +55,8 @@ function Account(): JSX.Element {
                     </div>
                 </div>
 
-                {account.loading ? <LoadingTile></LoadingTile> : <div className="account-body">
+                {account.loading ? <LoadingTile></LoadingTile> : 
+                <div className="account-body">
                     <div className="address">
                         {account.information.address}
                         <div style={{marginTop: 10}}>
